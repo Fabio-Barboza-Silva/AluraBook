@@ -1,0 +1,33 @@
+.banner-final {
+    background: var(--branco);
+    color: var(--azul-degrade);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner-final__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-final__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner-final__pesquisa {  
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.banner-final__pesquisa::placeholder{
+    font-family: var(--font-principal);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--azul-degrade);
+    background: url("/imagens/Carta.svg") no-repeat;
+    background-position: 0.5em;
+   
+} 
